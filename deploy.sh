@@ -28,7 +28,7 @@ git add -A
 git commit -m 'deploy master'
 
 # 如果你想要部署到 https://USERNAME.github.io
-git push -f git@github.com:Sogrey/VitePressTemplate.git master
+git push -f git@github.com:Sogrey/VitePressTemplate.git master:main
 
 echo -e "\033[32;40m [3/4] \033[0m Building static files"
 # 生成静态文件
