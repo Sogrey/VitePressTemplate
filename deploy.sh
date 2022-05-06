@@ -47,4 +47,4 @@ echo -e "\033[32;40m [3/4] \033[0m Building static files"
 
 echo -e "\033[32;40m done \033[0m "
 
-cd -
+# cd -
