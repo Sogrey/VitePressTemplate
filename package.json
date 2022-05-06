@@ -1,18 +1,22 @@
 {
-  "name": "vitepress-template",
-  "version": "1.0.0",
-  "description": "VitePress 是 VuePress 的小弟弟，在 Vite 上构建的，并且有所改进。",
-  "main": "index.js",
-  "scripts": {
-    "docs:dev": "vitepress dev docs --port 8080",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs --port 8080",
-    "deploy": "bash deploy.sh"
-  },
-  "repository": "git@github.com:Sogrey/VitePressTemplate.git",
-  "author": "Sogrey <suzhaoheng2006@163.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "vitepress": "^0.22.2"
-  }
+    "name": "vitepress-template",
+    "version": "1.0.0",
+    "description": "VitePress 是 VuePress 的小弟弟，在 Vite 上构建的，并且有所改进。",
+    "main": "index.js",
+    "scripts": {
+        "start": "yarn docs:dev",
+        "docs:dev": "vitepress dev docs --host --port 8080",
+        "docs:build": "vitepress build docs",
+        "docs:serve": "vitepress serve docs --port 8080",
+        "deploy": "bash deploy.sh"
+    },
+    "repository": "git@github.com:Sogrey/VitePressTemplate.git",
+    "author": "Sogrey <suzhaoheng2006@163.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "vitepress": "^0.22.2"
+    },
+    "dependencies": {
+        "gray-matter": "^4.0.3"
+    }
 }
